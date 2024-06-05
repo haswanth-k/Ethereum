@@ -9,6 +9,10 @@ transaction charges apply because of computing and mining
 two types of accounts EOA(externally owned account) and contract account(doesn't require private and public key)
 EOA only used for sending ether or digital tokens and contracts not able to contracts because only EOA can initiate contracts
 EOA has private key and public key, using elliptic curve public key will be created.
-
-
-
+Ethereum network composed of nodes, after user initiated transaction it sends to each node, collection of trans. called block.
+After creating block it will solve a puzzle for validating the node and adds to the ethereum blockchain and passes through each node at last will create a Ethers
+For running transaction we need gas
+max gasfee= gasprice(price offering) * gas limit(max units you are willing to spend)
+totaltransaction fee = (base fee(minimum gas price)+ tip(bribe))* gas limit
+refund = maxfeepergas - actual fee
+refund = maxfeepergas -(base fee)+ tip
