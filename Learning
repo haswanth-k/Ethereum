@@ -19,3 +19,5 @@ refund = maxfeepergas -(base fee)+ tip
 wallets are software that allows users to connect to ethereum network
 One network is completely isolated from different network and it don't have idea about assets of others
 We can create another wallet account like deterministic account for testing purposes
+
+Layer1 -> bitcoin, etherreum, solana
